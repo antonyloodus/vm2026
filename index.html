@@ -3,10 +3,16 @@
 <head>
     <meta charset="utf-8">
     <title>Antony Loodus, Veeb ja meedia elemendid</title>
+    <link rel="stylesheet" href="styles/general.css">
 </head>
 <body>
-    <header>
+    <header id="topOfPage">
         <img src="https://greeny.cs.tlu.ee/~rinde/media/pics/banner/veebjameedia_banner_2.png" alt="Kursuse bänner">
+        <nav>
+            <li><a href="#photosOnWeb">Fotod veebilehel</a></li>
+			<li><a href="#mediaOnWeb">Meediaelemendid veebilehel</a></li>
+			<li><a href="#gaudeamus">Gaudeamus sõnad</a></li>
+        </nav>
     </header>
     <main>
     <h1>Antony Loodus, Veeb ja meedia elemendid</h1>
@@ -30,7 +36,7 @@
             <dt>Veeb</dt><dd>Ülemaailmne hüpertekstil põhinev hajus infosüsteem</dd>
         </dl>
     </section>
-    <section>
+    <section id="photosOnWeb">
         <h2>Pildid veebis</h2>
         <figure>
             <img src="https://greeny.cs.tlu.ee/~rinde/media/photos/tallinn600x450/tln_92.JPG" alt="Kesklinna hooned">
@@ -44,7 +50,82 @@
             <img src="https://greeny.cs.tlu.ee/~rinde/media/photos/tallinn600x450/tln_29.JPG" alt="Vaade Vanaturu kael tänavalt">
             <figcaption>Vaade Vanaturu kael tänavalt</figcaption>
         </figure>
+        <p><a href="#topOfPage">Tagasi algusesse</a></p>
     </section>
+    <section id="mediaOnWeb">
+		<h2>Meedia veebilehel</h2>
+		<hgroup>
+			<h3>Heli veebis</h3>
+			<p>Veebis saab kasutada mitmeid audio failivorminguid. Standard näeb ette wav, ogg, mp3 ja nüüd ka m4a failid.</p>
+		</hgroup>
+		<audio controls preload="none">
+			<source src="https://greeny.cs.tlu.ee/~rinde/media/sounds/Au_Clair_de_la_Lune_(1860).ogg" type="audio/ogg">
+			<source src="https://greeny.cs.tlu.ee/~rinde/media/sounds/Au_Clair_de_la_Lune_(1860).mp3" type="audio/mpeg">
+			Kahjuks teie brauser ei toeta HTML5 audio elementi!
+		</audio>
+		<hgroup>
+			<h3>Video veebis</h3>
+			<p>Veebis saab kasutada mitmeid video failivorminguid. Standard näeb ette mp4, ogv ja webm failid.</p>
+		</hgroup>
+		<video controls width="600" preload="none" poster="../../media/videos/tlu_annab_hariduse.jpg">
+			<source src="https://greeny.cs.tlu.ee/~rinde/media/videos/haridusvalgustab.mp4" type="video/mp4">
+			Kahjuks teie brauser ei toeta HTML5 video elementi!
+		</video>
+		<hgroup>
+			<h3>Youtube'i video veebilehel</h3>
+			<p>Youtube'i video lisamiseks oma veebilehele tuleb kasutada embed koodi.</p>
+		</hgroup>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/446psZNw_z4?si=AmKm3vuu-H-eg1Ep" title="YouTube video TLÜ rektorikandidaatide väitlusest 4. veebruar 2026" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<p><a href="#topOfPage">Tagasi algusesse</a></p>
+	  </section>
+	  <section id="gaudeamus">
+		<hgroup>
+		    <h2>Tudengihümn</h2>
+			<p>Tudengite hümni Gaudeamus sõnad.</p>
+		</hgroup>
+		<pre>		:,: Gaudeamus igitur
+		juvenes dum sumus! :,:
+		Post jucundam juventutem,
+		post molestam senectutem
+		:,: nos habebit humus! :,:
+
+		:,: Ubi sunt, qui ante nos
+		in mundo fuere? :,:
+		Vadite ad superos,
+		 transite ad inferos,
+		:,: ubi iam fuere. :,:
+
+		:,: Vita nostra brevis est,
+		  brevi finietur. :,:
+		Venit mors velociter,
+		rapit nos atrociter,
+		:,: nemini parcetur. :,:
+
+		 :,: Vivat academia,	
+		vivant professores! :,:	
+		Vivat membrum quodlibet,
+		vivant membra quaelibet,
+		:,: semper sint in flore! :,:
+
+		 :,: Vivant omnes virgines	
+		faciles, formosae! :,:	
+		Vivant et mulieres
+		tenerae, amabiles,	
+		:,: atque laboriosae! :,:
+
+		:,: Vivat et respublica	
+		et qui illam regit! :,:	
+		Vivat nostra civitas,	
+		maecenatum caritas,
+		:,: quae nos hic protegit! :,:
+
+		:,: Pereat tristitia, 
+		pereant osores! :,:	
+		Pereat diabolus,	
+		quivis antiburschius,
+		:,: atque irrisores! :,:</pre>
+		<p><a href="#topOfPage">Tagasi algusesse</a></p>
+	  </section>
     </main>
     <footer>
       <hr>
